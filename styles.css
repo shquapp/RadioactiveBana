@@ -87,6 +87,7 @@ input[type=text]{
 .email{
     position: relative;
     text-align: center;
+    margin-top:2%;
 }
 
 @media all and (max-width: 1000px){
