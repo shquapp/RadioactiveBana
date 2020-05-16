@@ -97,7 +97,7 @@ input[type=text]{
         height: 100%;
         width: 100%;
         right: 8%;
-        margin-top: 0.5%;
+        margin-top: -5%;
         z-index: 3;
     }
     .image{
@@ -113,7 +113,7 @@ input[type=text]{
         letter-spacing: 10px;
         text-align: center;
         color: #766791;
-        margin-top:35%;
+        margin-top:30%;
         height: 100%;
         width: 100%;
     }
@@ -133,7 +133,7 @@ input[type=text]{
         position: relative;
         text-align: center;
         margin-right: 20%;
-        margin-top: 15%;
+        margin-top: 20%;
     }
 }
 
@@ -160,7 +160,7 @@ input[type=text]{
         letter-spacing: 10px;
         text-align: center;
         color: #766791;
-        margin-top:35%;
+        margin-top:37%;
         height: 100%;
         width: 100%;
     }
