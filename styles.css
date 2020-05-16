@@ -143,9 +143,8 @@ input[type=text]{
         text-align: center;
         height: 100%;
         width: 80%;
-        margin-top: 5%;
         z-index: 3;
-        margin-top: 180%;
+        margin-top: 170%;
     }
     .image{
         width: 100%;
@@ -175,7 +174,7 @@ input[type=text]{
         border: none;
         position: relative;
         top:590px;
-        width: 100%;
+        width:100%;
     }
     .email{
         position: relative;
