@@ -1,0 +1,145 @@
+#card{
+    background-color: white;
+    box-shadow:5px 5px 50px black;
+    height: auto;
+    width: 85%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    display: block;
+    overflow: auto;
+}
+#back{
+    margin-top: 3%;
+    margin-left: 2%;
+    height: 5%;
+    width: 7%;
+}
+hr{
+    background-color: #766791;
+    height: 2px;
+    border: none;
+    width: 75%;
+}
+.text{
+    font-family: Comfortaa;
+    color: #766791;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 300%;
+}
+input[type="text"]{
+    font-family: Comfortaa;
+    letter-spacing: 3px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#form-container{
+    margin-left: 9%;
+}
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:#766791 ;
+    outline: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+#item1{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#item2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#item3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#item4{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#item5{
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#item6{
+    grid-row-start: 4;
+    grid-row-end: 4; 
+}
+#item7{
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#item8{
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#item9{
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#item10{
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.message{
+    border-color: #766791;
+    margin-bottom: 50%;
+    margin-left:140%;
+    margin-top: 35%;
+    width: 230%;
+    height: 200%;
+    box-shadow: none;
+    outline: none;
+}
+#submit{
+    background-color:#766791;
+    font-family: Comfortaa;
+    letter-spacing: 2px;
+    font-size: x-small;
+    border: none;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    color: white;
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: 130%;
+}
+
+@media all and (max-width: 1000px){
+    .text{
+        font-family: Comfortaa;
+        color: #766791;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 150%;
+    }
+    hr{
+        background-color: #766791;
+        height: 2px;
+        border: none;
+        width: 100%;
+    }
+    #form-container{
+        margin-left: 16%;
+    }
+}
