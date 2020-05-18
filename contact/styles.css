@@ -1,7 +1,11 @@
+#background{
+    background-color: #766791; 
+    overflow: auto;
+}
 #card{
     background-color: white;
     box-shadow:5px 5px 50px black;
-    height: auto;
+    height: 100%;
     width: 85%;
     position: absolute;
     left:50%;
@@ -10,13 +14,16 @@
     z-index: 2;
     display: block;
     overflow: auto;
-    margin-top: 5%;
 }
 #back{
     margin-top: 3%;
     margin-left: 2%;
     height: 5%;
-    width: 7%;
+    width: 5%;
+}
+#heading{
+    letter-spacing: 10px; 
+    word-spacing: 10px;
 }
 hr{
     background-color: #766791;
@@ -124,6 +131,7 @@ input[type="text"]{
     padding-left: 15%;
     padding-right: 15%;
     margin-left: 130%;
+    margin-bottom: 25%;
 }
 
 @media all and (max-width: 1000px){
@@ -144,7 +152,33 @@ input[type="text"]{
     #form-container{
         margin-left: 16%;
     }
-    #card{
-        margin-top: 0%;
+    #background{
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width: 500px){
+    .input{
+        width: 90%;
+    }
+    #heading{
+        letter-spacing: 5px; 
+        word-spacing: 5px;
+    }
+    #back{
+        height: 3%;
+    }
+    p{
+        font-size: 75%;
+    }
+}
+
+@media all and (max-width: 500px) and (max-height: 700px){
+    .input{
+        width: 90%;
+    }
+    #heading{
+        letter-spacing: 2px; 
+        word-spacing: 2px;
     }
 }
