@@ -10,6 +10,7 @@
     z-index: 2;
     display: block;
     overflow: auto;
+    margin-top: 5%;
 }
 #back{
     margin-top: 3%;
@@ -30,6 +31,7 @@ hr{
     margin-left: 30%;
     margin-right: 30%;
     line-height: 300%;
+    word-spacing: 2px;
 }
 input[type="text"]{
     font-family: Comfortaa;
@@ -49,7 +51,7 @@ input[type="text"]{
 }
 .grid{
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 35% 35%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-gap: 10%;
     justify-items: center;
@@ -141,5 +143,8 @@ input[type="text"]{
     }
     #form-container{
         margin-left: 16%;
+    }
+    #card{
+        margin-top: 0%;
     }
 }
